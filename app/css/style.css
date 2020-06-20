@@ -551,3 +551,119 @@ body {
       background-color: transparent; }
     .review-slider .slick-dots .slick-active {
       background-color: #c0301c; }
+
+/* ----------------------------------------------------Contacts*/
+.contacts {
+  padding: 100px 0; }
+  .contacts__inner {
+    display: flex; }
+  .contacts__items {
+    max-width: 250px;
+    width: 100%; }
+
+.contacts-item {
+  margin-bottom: 30px;
+  display: flex; }
+  .contacts-item__icon {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #000; }
+  .contacts-item__title {
+    font-size: 14px;
+    font-family: "Montserrat-Regular";
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px; }
+  .contacts-item__text {
+    display: block;
+    color: #555;
+    font-size: 12px;
+    line-height: 20px; }
+  .contacts-item:last-child {
+    margin-bottom: 0; }
+
+.contacts-form {
+  max-width: 740px;
+  width: 100%;
+  margin-left: auto; }
+  .contacts-form__input {
+    display: inline-block;
+    max-width: 350px;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px; }
+    .contacts-form__input:nth-child(even) {
+      margin-left: 35px; }
+  .contacts-form__input, .contacts-form__textarea {
+    padding: 15px;
+    outline-color: #c0301c;
+    border: 1px solid #555; }
+    .contacts-form__input::placeholder, .contacts-form__textarea::placeholder {
+      text-transform: uppercase;
+      font-size: 12px; }
+  .contacts-form__textarea {
+    width: 100%;
+    resize: none;
+    max-height: 100px;
+    margin-bottom: 20px; }
+  .contacts-form__btn {
+    max-width: 170px;
+    width: 100%;
+    min-height: 40px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 1px solid #555;
+    display: inline-block;
+    background-color: transparent;
+    color: #555;
+    transition: all .4s; }
+    .contacts-form__btn:hover {
+      background-color: #c0301c;
+      color: #fff; }
+  .contacts-form__text {
+    display: inline-block;
+    margin-left: 35px;
+    font-size: 12px; }
+    .contacts-form__text span {
+      color: #c0301c; }
+
+/* ----------------------------------------------------Footer*/
+.footer {
+  padding: 100px 0;
+  background-color: #c0301c;
+  color: #fff;
+  text-align: center; }
+  .footer__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px; }
+  .footer__icon {
+    color: #fff;
+    max-width: 35px;
+    height: 35px;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s; }
+    .footer__icon:hover {
+      transform: scale(1.1); }
+    .footer__icon + a {
+      margin-left: 20px; }
+  .footer__text {
+    text-transform: uppercase;
+    padding-top: 30px;
+    position: relative; }
+    .footer__text:before {
+      content: '';
+      width: 50px;
+      height: 3px;
+      background-color: #fff;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, 0); }
