@@ -19,7 +19,7 @@
 				</a>
 				<nav class="header__nav menu">
 					<ul class="menu__list">
-						<li class="menu__line">
+						<li class="menu__line active">
 							<a class="menu__link" href="#" data-scroll="#header">Home </a>
 						</li>
 						<li class="menu__line">
@@ -56,7 +56,7 @@
 		</div>
 		<button class="header__btn" type="button" data-scroll="#services">
 			<span>scroll down</span>
-			<i class="icon-chevron-down"></i>
+			<i class="icon-chevron-down scroll__down"></i>
 		</button>
 	</header>
 
@@ -273,8 +273,17 @@
 						</div>
 					</div>
 				</div>
+			</div>
 
-				<div class="mobile-slider active" id="1">
+			<div class="works-content works__mobile">
+				<div class="works-content__nav">
+					<div class="works-content__btn active" data-name="first">All</div>
+					<div class="works-content__btn" data-name="first">Branding</div>
+					<div class="works-content__btn" data-name="first">Design</div>
+					<div class="works-content__btn" data-name="first">Development</div>
+					<div class="works-content__btn" data-name="first">Strategy</div>
+				</div>
+				<div class="works-content__items mobile-slider active" id="first">
 					<div class="works-content__item" style="background-image: url(images/works/work-1.jpg);">
 						<div class="works-content__panel">
 							<div class="works-content__name">Hair Dresser</div>
@@ -357,8 +366,8 @@
 						</div>
 					</div>
 				</div>
-
 			</div>
+
 		</div>
 	</section>
 
@@ -501,6 +510,41 @@
 					<div class="contacts-form__text"><span>*</span> We’ll contact you as as possible. We don’t reply on
 						Monday.</div>
 				</form>
+				<div class="contacts__items mobile">
+					<div class="contacts-item">
+						<i class="contacts-item__icon icon-map-marker"></i>
+						<div class="contacts-item__descr">
+							<div class="contacts-item__title">Address</div>
+							<div class="contacts-item__text">312, 7th Ave, New York
+								NY 101200, United States of America
+							</div>
+						</div>
+					</div>
+					<div class="contacts-item">
+						<i class="contacts-item__icon icon-mobile-phone"></i>
+						<div class="contacts-item__descr">
+							<div class="contacts-item__title">Hotline (24x7)</div>
+							<a class="contacts-item__text" href="tel:1231312312312">
+								+88 01723 511 340
+							</a>
+							<a class="contacts-item__text" href="tel:1231312312312">
+								+65 0052 300
+							</a>
+						</div>
+					</div>
+					<div class="contacts-item">
+						<i class="contacts-item__icon icon-envelope-o"></i>
+						<div class="contacts-item__descr">
+							<div class="contacts-item__title">E-mail</div>
+							<a class="contacts-item__text" href="mailto:shapedtheme@gmail.com">
+								shapedtheme@gmail.com
+							</a>
+							<a class="contacts-item__text" href="mailto:khalilkode@gmail.com">
+								shapedtheme@gmail.com
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
