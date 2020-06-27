@@ -11,56 +11,56 @@
 </head>
 
 <body>
-	<div class="header__wrapper">
-		<header class="header" style="background-image: url(images/header-bg.jpg);">
-			<div class="container">
-				<div class="header__top">
-					<a class="header__logo" href="#">
-						<img src="images/logo-1.png" alt="">
-					</a>
-					<nav class="header__nav menu">
-						<ul class="menu__list">
-							<li class="menu__line">
-								<a class="menu__link" href="#">Home </a>
-							</li>
-							<li class="menu__line">
-								<a class="menu__link" href="#">Services </a>
-							</li>
-							<li class="menu__line">
-								<a class="menu__link" href="#">About</a>
-							</li>
-							<li class="menu__line">
-								<a class="menu__link" href="#">Works</a>
-							</li>
-							<li class="menu__line">
-								<a class="menu__link" href="#">Blog</a>
-							</li>
-							<li class="menu__line">
-								<a class="menu__link" href="#">Clients</a>
-							</li>
-							<li class="menu__line">
-								<a class="menu__link" href="#">Contact</a>
-							</li>
-							<a class="menu__logo" href="#">
-								Startup
-							</a>
-						</ul>
-					</nav>
-					<div class="header__button"></div>
-				</div>
-				<div class="header__content">
-					<div class="header__title">Welcome to STARTUP</div>
-					<div class="header__subtitle">Your Favourite Creative Agency Template</div>
-				</div>
-				<button class="header__btn" type="button">
-					<span>scroll down</span>
-					<i class="icon-chevron-down"></i>
-				</button>
+	<header class="header__wrapper" id="header">
+		<div class="header__top">
+			<div class="container__fluid">
+				<a class="header__logo" href="#">
+					<img src="images/logo-1.png" alt="">
+				</a>
+				<nav class="header__nav menu">
+					<ul class="menu__list">
+						<li class="menu__line">
+							<a class="menu__link" href="#" data-scroll="#header">Home </a>
+						</li>
+						<li class="menu__line">
+							<a class="menu__link" href="#" data-scroll="#services">Services </a>
+						</li>
+						<li class="menu__line">
+							<a class="menu__link" href="#" data-scroll="#about">About</a>
+						</li>
+						<li class="menu__line">
+							<a class="menu__link" href="#" data-scroll="#works">Works</a>
+						</li>
+						<li class="menu__line">
+							<a class="menu__link" href="#" data-scroll="#blog">Blog</a>
+						</li>
+						<li class="menu__line">
+							<a class="menu__link" href="#" data-scroll="#review">Clients</a>
+						</li>
+						<li class="menu__line">
+							<a class="menu__link" href="#" data-scroll="#contacts">Contact</a>
+						</li>
+						<a class="menu__logo" href="#">
+							Startup
+						</a>
+					</ul>
+				</nav>
+				<div class="header__button"></div>
 			</div>
-		</header>
-	</div>
+		</div>
+		<div class="header" style="background-image: url(images/header-bg.jpg);">
+			<div class="header__content" id="top">
+				<div class="header__title">Welcome to STARTUP</div>
+				<div class="header__subtitle">Your Favourite Creative Agency Template</div>
+			</div>
+		</div>
+		<button class="header__btn" type="button" data-scroll="#services">
+			<span>scroll down</span>
+			<i class="icon-chevron-down"></i>
+		</button>
+	</header>
 
-	<section class="services">
+	<section class="services" id="services">
 		<div class="container">
 			<div class="services__title title">
 				Services
@@ -95,7 +95,7 @@
 		</div>
 	</section>
 
-	<section class="about">
+	<section class="about" id="about">
 		<div class="container">
 			<div class="about__title title">
 				About us
@@ -177,7 +177,7 @@
 	</section>
 
 
-	<section class="works">
+	<section class="works" id="works">
 		<div class="container">
 			<div class="works__title title">
 				Latest Works <span></span>
@@ -370,7 +370,7 @@
 		</div>
 	</section>
 
-	<section class="blog">
+	<section class="blog" id="blog">
 		<div class="container">
 			<div class="blog__title title">
 				Recent blog posts
@@ -419,7 +419,7 @@
 		</div>
 	</section>
 
-	<section class="review">
+	<section class="review" id="review">
 		<div class="container">
 			<div class="review__companies">
 				<div class="review__logo" style="background-image: url(images/company-1.png);"></div>
@@ -448,7 +448,7 @@
 		</div>
 	</section>
 
-	<section class="contacts">
+	<section class="contacts" id="contacts">
 		<div class="container">
 			<div class="contacts__title title">
 				Get in touch
